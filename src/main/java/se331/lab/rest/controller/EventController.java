@@ -13,10 +13,6 @@ import se331.lab.rest.entity.Event;
 import se331.lab.rest.service.EventService;
 import se331.lab.rest.util.LabMapper;
 
-import javax.annotation.PostConstruct;
-import java.util.ArrayList;
-import java.util.List;
-
 @Controller
 public class EventController {
     @Autowired
